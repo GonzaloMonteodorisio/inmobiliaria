@@ -1,0 +1,137 @@
+.proyectosHome {
+    margin-top: 5rem;
+    
+}
+
+.iconosWrapper {display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  padding: 0 2rem;
+  gap-column: 1rem;
+  gap-row: .8rem;
+ }
+
+.iconosItem {
+    display: flex;
+    justify-content: flex-start;
+   align-items: center;
+   flex-wrap: no-wrap;
+    width: 100%;
+    text-align: center;
+        
+    i {
+        margin-right: .5rem;
+    }
+}
+
+.proyectosNumbers {
+  padding: 2rem;
+  font-size: 1.1rem;
+
+  span {
+    color: var(--colorOrange);
+    margin-left: 1rem;
+    margin-right: .5rem;
+    letter-spacing: .1rem;
+  }
+}
+
+.proyectos {
+
+  &_section_tituloPrincipal {
+    color: var(--colorBlue);
+    font-size: var(--titulosSize);
+    padding: 1rem 2rem 0 2rem;
+}
+
+    &_section_titulo {
+        color: var(--colorBlue);
+        font-size: var(--titulosSize);
+        padding: 1rem 2rem 0 2rem;
+        position: relative;
+    }
+
+    &_section_titulo::after {
+      position: absolute;
+      content: "";
+      height: 2px;
+      bottom: -1px;
+      
+      left: 2rem;
+      width: 10%;
+      background: var(--colorOrange);
+
+    }
+
+    &_section_subtitulo {
+      padding: 0 2rem;
+    }
+
+    &_caracteristicas_title {
+      font-size: var(--mediumSize);
+      margin-bottom: 0.5rem;
+      text-align: center;
+      position: relative;
+
+    }
+
+    &_caracteristicas_title::after {
+      position: absolute;
+      content: "";
+      height: 2px;
+      bottom: -1px;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      width: 10%;
+      background: var(--colorOrange);
+    }
+
+&_wrapper_left {
+    padding: 2rem;
+    width: 100%;
+  
+    &_title {
+      color: var(--colorBlue);
+      font-size: var(--mediumSize);
+      margin-bottom: 0.5rem;
+      text-align: center;
+      position: relative;
+  
+    }
+
+    &_title::after {
+      position: absolute;
+      content: "";
+      height: 2px;
+      bottom: -1px;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      width: 30%;
+      background: var(--colorOrange);
+    }
+  
+    &_text {
+      font-size: 1.375rem;
+    }
+  
+    &_text + &_text {
+      margin-top: 2rem;
+  }
+    
+  }
+  
+  &_wrapper_right {
+
+    padding: 2rem;
+    width: 100%;
+  
+    img {
+     
+      display: block;
+      
+    }
+  }
+
+}

@@ -1,0 +1,33 @@
+.nosotros {
+  margin-top: 5rem;
+}
+
+.equipo {
+  background-color: #f2f2f2;
+  padding: 2rem;
+}
+
+.equipoCards {
+  background-color: #fff;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  p {
+    text-align: center;
+    padding: 0 4rem;
+    font-size: 1rem;
+  }
+}
+
+.propiedades_nosotros {
+  background-color: #fff;
+  padding-bottom: 4rem;
+}

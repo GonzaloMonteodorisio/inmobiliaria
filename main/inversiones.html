@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+
+    <!-- Boxicons 2.0.9 CSS -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+   
+    <!-- <script src="js/main.js" defer></script> -->
+
+    <!-- CSS main custom -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Proyecto CYC</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo"><img src="./img/logo.png"></div>
+            <ul class="links">
+                <li><a href="index.html" class="button">Inicio</a></li>
+                <li><a href="proyectos.html" class="button">Proyectos</a></li>
+                <li><a href="inversiones.html" class="button">Inversiones</a></li>
+                <li><a href="nosotros.html" class="button">Nosotros</a></li>
+                <li><a href="fqa.html" class="button">Preguntas Frecuentes</a></li>
+                <li><a href="contacto.html" class="button">Contacto</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+    </header>
+    <main>
+        <section class="inversiones section">
+            <h2 class="section_titulo textCenter">Inversiones</h2>
+            <div class="grid">
+            
+                <div class="wrapper_left">
+                    <h4 class="wrapper_left_title">¿No sabes como invertir tus ahorros?</h4>
+                    <p class="wrapper_left_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus dictum fermentum phasellus tortor, nisl vehicula tortor viverra. Elementum mauris at amet, tristique gravida vitae morbi duis. Pharetra commodo facilisi sit elementum hac pretium non neque. Enim auctor tempor tristique et urna eleifend. Semper volutpat nulla aliquet cras erat a tortor risus euismod.</p>
+                    <p class="wrapper_left_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus dictum fermentum phasellus tortor, nisl vehicula tortor viverra. Elementum mauris at amet, tristique gravida vitae morbi duis. Pharetra commodo facilisi sit elementum hac pretium non neque. Enim auctor tempor tristique et urna eleifend. Semper volutpat nulla aliquet cras erat a tortor risus euismod.</p>
+
+                <a class="wrapper_left_button" href="">Quiero invertir!</a>
+
+                </div>
+                
+                <div class="wrapper_right">
+                    <img src="img/seccion_ahorro.jpeg" alt="edifcio horizontal">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Propiedades -->
+        <section class="propiedades section">
+            <h2 class="section_titulo textCenter">Propiedades</h2>
+            <div class="cardsPropiedades grid" id="propiedades-contenedor">
+            </div>
+        </section>
+
+        <!-- Por qué elegirnos? -->
+        <section class="elegirnos section">
+            <h2 class="section_titulo textCenter">¿Por qué elegirnos?</h2>
+            <div class="cardsText grid" id="elegirnos-cards-group">
+            </div>
+        </section>
+
+        <!--  Testimonios  -->
+        <section class="section testimonios">
+            <h2 class="testimonios_titulo textCenter">Testimonios</h2>
+
+            <div class="containerTestimonial">
+            
+                <div class="testimonial">
+                    <div class="contenedor_testimonios slider" id="contenedor_testimonios">
+                        <!-- <div class="slider_contenedor slide">
+                            <div class="slider_testimonios">
+                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet aliquam egestas quis est nibh congue venenatis duis. Aenean elit magna ultricies sed. facilisi risus in. Massa morbi adipiscing pellentesque nulla ultrices augue.”</p>
+                                <img src="./img/imgnosotros.jpg" alt="persona">
+                                <h4>Mariana</h4>
+                            </div>
+                        </div>
+                        <div class="slider_contenedor slide slide-2">
+                            <div class="slider_testimonios">
+                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet aliquam egestas quis est nibh congue venenatis duis.”</p>
+                                <img src="./img/imgnosotros.jpg" alt="persona">
+                                <h4>Juan</h4>
+                            </div>
+                        </div>
+                        <div class="slider_contenedor slide slide-3">
+                            <div class="slider_testimonios">
+                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet aliquam egestas quis est nibh congue venenatis duis. Aenean elit magna ultricies sed.”</p>
+                                <img src="./img/imgnosotros.jpg" alt="persona">
+                                <h4>Martin</h4>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="indicator">
+                    <div id="indicadores">
+
+                    </div>
+                    <!-- <span class="btnTestimonial"></span>
+                    <span class="btnTestimonial prev"></span>
+                    <span class="btnTestimonial next"></span>
+                    <span class="btnTestimonial"></span> -->
+                </div>
+            </div>
+        </section> 
+
+        <!-- Before Maps -->
+        <section class="section before_maps">
+
+            <div class="section_beforemaps row" id="before-maps-contenedor">
+            </div>
+        </section>
+    </main>
+
+    <!--  Footer  -->
+                            
+    <footer class="footer section" id="footer">
+    </footer>
+    <!-- Fontawesome JS -->
+    <script src="https://kit.fontawesome.com/aa037f8851.js" crossorigin="anonymous"></script>
+    <!-- Propiedades JS -->
+    <script src="./js/propiedades.js"></script>
+    <!-- Por qué elegirnos JS -->
+    <script src="./js/elegirnos.js"></script>
+    <!-- Por qué elegirnos JS -->
+    <script src="./js/testimonios-inversiones.js"></script>
+    <!-- Before maps JS -->
+    <script src="./js/before-maps.js"></script>
+    <!-- Footer JS -->
+    <script src="./js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <!-- Boxicons 2.0.9 CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- <script src="js/main.js" defer></script> -->
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Proyecto CYC</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+          <input id="nav-toggle" type="checkbox">
+          <div class="logo"><img src="./img/logo.png"></div>
+          <ul class="links">
+              <li><a href="index.html" class="button">Inicio</a></li>
+              <li><a href="proyectos.html" class="button">Proyectos</a></li>
+              <li><a href="inversiones.html" class="button">Inversiones</a></li>
+              <li><a href="nosotros.html" class="button">Nosotros</a></li>
+              <li><a href="fqa.html" class="button">Preguntas Frecuentes</a></li>
+              <li><a href="contacto.html" class="button">Contacto</a></li>
+          </ul>
+          <label for="nav-toggle" class="icon-burger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+          </label>
+      </nav>
+  </header>
+
+    <main>
+        <section class="contacto section">
+            <h2 class="section_titulo textCenter">Contacto</h2>
+        <div class="grid">
+        
+            <div class="wrapper_left">
+                <h4 class="wrapper_left_title">Mantengámonos en contacto</h4>
+                <p class="wrapper_left_text">Puedes enviarnos un formulario con cualquier consulta y te responderemos lo mas pronto posible!
+                </p>
+
+                <div class="contact_list_row">
+                    <div class="contact_list_row_contacto">
+                    
+        
+                      <div class="contact_link">
+                        <p><i class="far fa-envelope"></i>Consultas@asdgsa.com</p>
+                        <p><i class="fas fa-phone-volume"></i>1130743823</p>
+                        
+                      </div>
+                      <h2 class="contact_item_subTitle">Nuestras redes</h2>
+                      <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+                      <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                       <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                  </div>
+    
+            </div>
+             
+            <div class="wrapper_right">
+
+                <h4 class="wrapper_right_title">Contactanos</h4>
+
+
+                <form class="contactoForm" action="#">
+     
+         
+                    <div class="contactoInput"> 
+                       
+                     <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                     <div class="contactoInput">
+                       
+                         <input type="number" name="telefono" placeholder="Celular" required>
+                    </div>
+                    
+                    <div class="contactoInput">
+                        <label for="email"></label>
+                         <input type="email" name="emial" id="emial" placeholder="Email" required>
+                    </div>
+           
+                    <div class="contactoInput"> 
+                       <label for="mensaje"></label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                   </div>
+           
+           
+                     
+                     <input class="button contactButton" type="submit" id="submit" value="Enviar Consulta">
+                     
+               
+           
+                </form>
+    
+            </div>
+        </div>
+            </section>
+            <!-- Testimonios -->
+            <section class="testimoniosContacto section">
+                <h2 class="section_titulo textCenter">Testimonios</h2>
+                <div class="cardsText grid" id="contenedor-cards-testimonios">                
+                    <!-- <div class="cardsText_card equipoCards testimoniosCard">
+                        <p class="textCenter equipoCards_titulo">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet aliquam egestas quis est nibh congue.”</p>
+                        <img src="img/imgnosotros.jpg" alt="">
+                        <h3>Mariana</h3>
+                    </div>
+                    <div class="cardsText_card equipoCards testimoniosCard">
+                      <p class="textCenter equipoCards_titulo">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet aliquam egestas quis est nibh congue.”</p>
+
+                      <img src="img/imgnosotros.jpg" alt="">
+                      <h3>Mariana</h3>
+                    </div>    
+                    <div class="cardsText_card equipoCards testimoniosCard">
+                        <p class="textCenter equipoCards_titulo">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet aliquam egestas quis est nibh congue.”</p>
+                        <img src="img/imgnosotros.jpg" alt="">
+                        <h3>Mariana</h3>
+                    </div>                    -->
+                </div>
+            </section>
+
+    
+
+        <!--  before Maps  -->
+
+
+        <section class="section before_maps">
+
+            <div class="section_beforemaps row" id="before-maps-contenedor">
+              <!-- <div class="contenedor">
+                  
+                  <h5 class="contenedor_title"><i class="fas fa-mug-hot"></i>7624</h5>
+                  <p class="contenedor_text">cafes servidos a nuestros clientes</p>
+              </div>
+              <div class="contenedor">
+                  
+                  <h5 class="contenedor_title"><i class="fas fa-key"></i>7624</h5>
+                  <p class="contenedor_text">Hogares entregados</p>
+              </div>
+              <div class="contenedor">
+                  
+                  <h5 class="contenedor_title"><i class="far fa-building"></i></i>7624</h5>
+                  <p class="contenedor_text">Proyectos terminados</p>
+              </div> -->
+            </div>
+          </section>
+      
+                      <!--  Maps  -->
+      
+          
+          <section class="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d210249.11624562708!2d-58.63985775203858!3d-34.57526218771548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1627669770788!5m2!1ses-419!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </section>
+        </main>
+
+    <!--  Footer  -->
+
+    <footer class="footer section" id="footer">
+    </footer>
+    <!-- Fontawesome JS -->
+    <script
+      src="https://kit.fontawesome.com/aa037f8851.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Contacto testimonios JS -->
+    <script src="./js/contacto-testimonios.js"></script>
+    <!-- Before Maps JS -->
+    <script src="./js/before-maps.js"></script>
+    <!-- Footer JS -->
+    <script src="./js/footer.js"></script>
+  </body>
+</html>
+    

@@ -1,0 +1,81 @@
+.contacto {
+  margin-top: 5rem;
+}
+
+.wrapper_right {
+  &_title {
+    color: #fff;
+    font-size: var(--mediumSize);
+    margin-bottom: 0.5rem;
+    padding: 1rem 2rem 0 2rem;
+  }
+}
+
+.contactoForm {
+  width: 100%;
+  padding: 2rem;
+}
+
+.contactoInput {
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 1rem;
+  }
+}
+
+.contact_list_row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  i {
+    color: var(--colorOrange);
+    margin-right: 0.5rem;
+  }
+}
+
+.contact_list_row_contacto p {
+  margin: 2.5rem 0;
+}
+
+.contact_item_subTitle {
+  font-size: 1.5rem;
+  color: var(--colorBlue);
+  position: relative;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.testimoniosContacto {
+  background-color: #f3f3f3;
+  padding: 2rem 2rem 3rem 2rem;
+}
+
+.testimoniosCard {
+  background-color: #fff;
+  padding: 1rem;
+
+  h3 {
+    color: var(--colorBlue);
+    text-align: center;
+  }
+}
+
+.contactButton {
+  display: inline-block;
+  background-color: var(--colorOrange);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.3rem 3rem;
+  margin: 0 auto;
+  font-size: var(--mediumSize);
+  border: none;
+  cursor: pointer;
+}

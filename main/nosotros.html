@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+   
+    <!-- Boxicons 2.0.9 CSS -->  
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- <script src="js/main.js" defer></script> -->
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Proyecto CYC</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+          <input id="nav-toggle" type="checkbox">
+          <div class="logo"><img src="./img/logo.png"></div>
+          <ul class="links">
+              <li><a href="index.html" class="button">Inicio</a></li>
+              <li><a href="proyectos.html" class="button">Proyectos</a></li>
+              <li><a href="inversiones.html" class="button">Inversiones</a></li>
+              <li><a href="nosotros.html" class="button">Nosotros</a></li>
+              <li><a href="fqa.html" class="button">Preguntas Frecuentes</a></li>
+              <li><a href="contacto.html" class="button">Contacto</a></li>
+          </ul>
+          <label for="nav-toggle" class="icon-burger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+          </label>
+      </nav>
+  </header>
+
+    <main>
+      <section class="nosotros section">
+        <h2 class="section_titulo textCenter">¿Quiénes somos?</h2>
+        <div class="grid">
+          <div class="wrapper_left">
+            <h4 class="wrapper_left_title">Historia</h4>
+            <p class="wrapper_left_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus
+              dictum fermentum phasellus tortor, nisl vehicula tortor viverra.
+              Elementum mauris at amet, tristique gravida vitae morbi duis.
+              Pharetra commodo facilisi sit elementum hac pretium non neque.
+              Enim auctor tempor tristique et urna eleifend. Semper volutpat
+              nulla aliquet cras erat a tortor risus euismod.
+            </p>
+            <h4 class="wrapper_left_title--second">Actualidad</h4>
+
+            <p class="wrapper_left_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus
+              dictum fermentum phasellus tortor, nisl vehicula tortor viverra.
+              Elementum mauris at amet, tristique gravida vitae morbi duis.
+              Pharetra commodo facilisi sit elementum hac pretium non neque.
+              Enim auctor tempor tristique et urna eleifend. Semper volutpat
+              nulla aliquet cras erat a tortor risus euismod.
+            </p>
+
+            <a class="wrapper_left_button" href="">Más Información</a>
+          </div>
+
+          <div class="wrapper_right">
+            <img src="img/seccion_ahorro.jpeg" alt="edifcio horizontal" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Equipo -->
+      <section class="equipo section">
+        <h2 class="section_titulo textCenter">Equipo</h2>
+        <div class="cardsText grid_equipo" id="contenedor-equipo">
+        </div>
+      </section>
+
+      <!-- Proyectos destacados -->
+      <section class="section propiedades_nosotros">
+        <h2 class="section_titulo textCenter">Proyectos destacados</h2>
+        <div class="cardsPropiedades grid" id="proyectos-destacados-contenedor">
+        </div>
+      </section>
+    </main>
+
+    <!--  Footer  -->
+
+    <footer class="footer section" id="footer">
+    </footer>
+    <!-- Fontawesome JS -->
+    <script
+      src="https://kit.fontawesome.com/aa037f8851.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Equipo JS -->
+    <script src="./js/equipo.js"></script>
+    <!-- Proyectos destacados JS -->
+    <script src="./js/proyectos-destacados.js"></script>
+    <!-- Footer JS -->
+    <script src="./js/footer.js"></script>
+  </body>
+</html>
